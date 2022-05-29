@@ -4,14 +4,62 @@
 }
 
 body{
-  background-color: rgb(70, 70, 70);
+  background-color: #404040;
   color: rgb(216, 216, 216);
+  padding-bottom: 30px;
 }
 
 .memesBoard{
   margin: auto; 
   background-color: rgb(216, 216, 216);
   border-radius: 5px;
-  width: 550px; /*to do zmiany - teraz cokolwiek dla testu*/
-  height: 1000px; /*to do zmiany - teraz cokolwiek dla testu*/
+  width: 950px; /*to do zmiany - teraz cokolwiek dla testu*/
+  height: 1500px; /*to do zmiany - teraz cokolwiek dla testu*/
+}
+
+.mem{
+  padding: 70px 170px;
+
+}
+
+.memes{
+  background-color: #262626;
+  /* width: 600px;
+  height: 600px; */
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.meme{
+  padding: 50px;
+}
+
+h1{
+  padding-top: 50px; 
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  background-color: #262626;
+  width: 100%;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar li a{
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  margin: auto;
+}
+
+.navbar li{
+  float: left;
 }
