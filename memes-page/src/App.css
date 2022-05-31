@@ -9,6 +9,11 @@ body{
   padding-bottom: 30px;
 }
 
+.active{
+  background-color: darkred;
+  cursor: default;
+}
+
 .memesBoard{
   margin: auto; 
   background-color: rgb(216, 216, 216);
